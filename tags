@@ -1,0 +1,39 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Delete	blog.py	/^class Delete:$/;"	c
+Edit	blog.py	/^class Edit:$/;"	c
+GET	blog.py	/^    def GET(self):$/;"	m	class:Index
+GET	blog.py	/^    def GET(self):$/;"	m	class:Logout
+GET	blog.py	/^    def GET(self):$/;"	m	class:New
+GET	blog.py	/^    def GET(self,id):$/;"	m	class:Edit
+GET	blog.py	/^    def GET(self,id):$/;"	m	class:View
+Index	blog.py	/^class Index:$/;"	c
+Logout	blog.py	/^class Logout:$/;"	c
+New	blog.py	/^class New:$/;"	c
+POST	blog.py	/^    def POST(self):$/;"	m	class:Index
+POST	blog.py	/^    def POST(self):$/;"	m	class:New
+POST	blog.py	/^    def POST(self,id):$/;"	m	class:Delete
+POST	blog.py	/^    def POST(self,id):$/;"	m	class:Edit
+View	blog.py	/^class View:$/;"	c
+app	blog.py	/^app  = web.application(urls,globals())$/;"	v
+cols	blog.py	/^            cols=80,$/;"	v	class:New
+db	model.py	/^db = web.database(dbn='mysql',db = 'webpyblog',user='root',pw='123456')$/;"	v
+del_post	model.py	/^def del_post(id):$/;"	f
+description	blog.py	/^            description = 'Post content:'),$/;"	v	class:New
+description	blog.py	/^            description='Post title:'),$/;"	v	class:New
+form	blog.py	/^    form = web.form.Form($/;"	v	class:New
+get_post	model.py	/^def get_post(id):$/;"	f
+get_posts	model.py	/^def get_posts():$/;"	f
+login	blog.py	/^login = web.form.Form($/;"	v
+new_post	model.py	/^def new_post(title,text):$/;"	f
+notfound	blog.py	/^def notfound():$/;"	f
+render	blog.py	/^render = web.template.render('templates',base='base',globals=t_globals)$/;"	v
+row	blog.py	/^            row = 30,$/;"	v	class:New
+size	blog.py	/^            size=30,$/;"	v	class:New
+t_globals	blog.py	/^t_globals = { $/;"	v
+update_post	model.py	/^def update_post(id,title,text):$/;"	f
+urls	blog.py	/^urls = ($/;"	v
